@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import Way from './components/Way'
 import Boxes from './components/Boxes'
+import Way2 from './components/Way2'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <Way/>
       <Boxes/>
+      <Way2/>
     </div>
   )
 }

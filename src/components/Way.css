@@ -19,3 +19,7 @@
 .par-way h1 span{
     color: #45C9C1;
 }
+
+.way2-p{
+  max-width: 700px !important;
+}
