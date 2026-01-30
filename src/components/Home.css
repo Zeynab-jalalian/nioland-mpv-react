@@ -5,7 +5,7 @@
     background-image: url('/public/img/map-ban1.png');
     background-position: center center;
     background-size: cover;
-    padding: 50px 20px;
+    padding: 80px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .btns-home{
   width: 500px;
@@ -22,6 +23,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
+  top:50px;
 }
 .btn-home{
     background: white;
@@ -33,10 +36,6 @@
 }
 .btn-home:nth-child(2){
     background: #45C9C1;
-}
-.logo-home , .icon-home{
-    position: relative;
-    top: -100px;
 }
 .logo-home img{
     animation: rotate 2s linear infinite;
