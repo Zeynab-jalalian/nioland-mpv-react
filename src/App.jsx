@@ -10,6 +10,7 @@ import Comments from './components/Comments'
 import Banner from './components/Banner'
 import Text from './components/Text'
 import Parts from './components/Parts'
+import Free from './components/Free'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Banner/>
       <Text/>
       <Parts/>
+      <Free/>
     </div>
   )
 }
