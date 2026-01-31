@@ -9,6 +9,7 @@ import Items from './components/Items'
 import Comments from './components/Comments'
 import Banner from './components/Banner'
 import Text from './components/Text'
+import Parts from './components/Parts'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Comments/>
       <Banner/>
       <Text/>
+      <Parts/>
     </div>
   )
 }
