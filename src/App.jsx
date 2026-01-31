@@ -8,6 +8,7 @@ import Way2 from './components/Way2'
 import Items from './components/Items'
 import Comments from './components/Comments'
 import Banner from './components/Banner'
+import Text from './components/Text'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Items />
       <Comments/>
       <Banner/>
+      <Text/>
     </div>
   )
 }

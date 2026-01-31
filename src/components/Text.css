@@ -1,0 +1,10 @@
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.text h1 span{
+    color: #45c9c1;
+}
