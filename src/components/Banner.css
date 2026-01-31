@@ -1,0 +1,61 @@
+.banners {
+  background-color: #45c9c1;
+  background-image: url("/public/img/map-ban1.png");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.banner-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.banner-1 p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 20px;
+}
+.banner-2 {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-2 .btn-banner {
+  background: white;
+  font-weight: bold;
+  padding: 16px 26px;
+  margin: 8px 5px;
+  font-size: 50px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.banner-2 .btn2-banner {
+  background: #3f53d8;
+  color: white;
+  font-weight: bold;
+  padding: 16px 26px;
+  margin: 8px 5px;
+  font-size: 50px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.banner-3 img{
+    display: inline-block;
+    width: 320px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

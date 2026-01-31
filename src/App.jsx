@@ -7,6 +7,7 @@ import Boxes from './components/Boxes'
 import Way2 from './components/Way2'
 import Items from './components/Items'
 import Comments from './components/Comments'
+import Banner from './components/Banner'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Way2/>
       <Items />
       <Comments/>
+      <Banner/>
     </div>
   )
 }
