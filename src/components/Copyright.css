@@ -1,0 +1,26 @@
+.cpr{
+    border-top: 1px solid #dbdbdb;
+    width: 90%;
+    padding-bottom: 30px;
+    margin: auto;
+    padding-top: 30px;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cpr p{
+    font-size: 18px;
+    color: #333;
+}
+.cpr p span{
+  color: #0ccc84;
+}
+.cpr div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cpr div span{
+    margin: 0 10px;
+}

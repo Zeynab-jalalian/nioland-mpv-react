@@ -12,6 +12,7 @@ import Text from './components/Text'
 import Parts from './components/Parts'
 import Free from './components/Free'
 import Footer from './components/Footer'
+import Copyright from './components/Copyright'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Parts/>
       <Free/>
       <Footer/>
+      <Copyright/>
     </div>
   )
 }
