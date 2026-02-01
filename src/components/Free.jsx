@@ -11,6 +11,10 @@ function Free() {
         یادگیری یک زبان جدید هم چالش برانگیز و هم ارزشمند است، زیرا برای تسلط بر
         آن نیاز به زمان، صبر و فداکاری دارد.
       </p>
+      <div className="input-free">
+        <button className="button-free">اشتراک</button>
+        <input type="text" placeholder="آدرس ایمیل شما" />
+      </div>
       <ul className="free-ul">
         <li>
           <i class="bi bi-arrow-right-circle"></i>

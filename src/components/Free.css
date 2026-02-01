@@ -2,7 +2,8 @@
   background-image: url(/public//img/pattern-10.png);
   background-position: center center;
   background-size: cover;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   border-radius: 20px;
   background: #3f53d8;
   margin-top: 70px;
@@ -34,6 +35,38 @@
   font-size: 20px;
   color: white;
 }
-.free-ul li span{
-    margin-right: 10px;
+.free-ul li span {
+  margin-right: 10px;
+}
+.input-free {
+  width: 60%;
+  margin-bottom: 15px;
+  position: relative;
+}
+.input-free input {
+  outline: none;
+  border: none;
+  width: 100%;
+  margin: auto;
+  border-radius: 40px;
+  height: 62px !important;
+  padding: 40px 30px;
+  direction: ltr;
+  font-size: 22px;
+}
+.button-free {
+  padding: 20px;
+  border-radius: 30px;
+  background: #45c9c1;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 130px;
+  min-width: 130px;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
 }
