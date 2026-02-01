@@ -57,6 +57,9 @@ function Footer() {
         <li>مدیریت کسب و کار</li>
         <li>آموزش زبان</li>
       </ul>
+      <div className="up">
+        <i class="bi bi-chevron-up"></i>
+      </div>
     </div>
   );
 }
