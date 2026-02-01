@@ -11,6 +11,7 @@ import Banner from './components/Banner'
 import Text from './components/Text'
 import Parts from './components/Parts'
 import Free from './components/Free'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Text/>
       <Parts/>
       <Free/>
+      <Footer/>
     </div>
   )
 }
