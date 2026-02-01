@@ -34,6 +34,14 @@ function Header() {
             <span>اکنون بخرید</span>
         </div>
       </div>
+      <div className="header-responsive">
+        <div className="logo">
+          <img src="/img/logo-1.png" alt="Logo" width="150px" />
+        </div>
+        <div>
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
     </div>
   );
 }

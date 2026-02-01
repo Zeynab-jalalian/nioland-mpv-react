@@ -1,4 +1,65 @@
-.header{
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: white;
+  z-index: 100;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.logo {
+  cursor: pointer;
+}
+.list {
+  width: 100%;
+}
+.list ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list ul li {
+  margin: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+}
+.list ul li i {
+  margin: 0 5px;
+}
+.button-shop {
+  background: rgb(59, 59, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.button-shop:hover {
+  background: blue;
+}
+.header-responsive {
+  display: none;
+}
+@media (max-width: 760px) {
+  .header {
+    display: none;
+  }
+  .header-responsive {
     position: fixed;
     top: 0;
     right: 0;
@@ -8,47 +69,13 @@
     width: 100%;
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 30px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-}
-.logo{
-    cursor: pointer;
-}
-.list{
-    width: 100%;
-}
-.list ul{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.list ul li{
-    margin: 15px;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 18px;
-}
-.list ul li i{
-    margin: 0 5px;
-}
-.button-shop{
-    background: rgb(59, 59, 255);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    font-weight: bold;
-    font-size: 18px;
-}
-.button-shop:hover{
-    background: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .header-responsive i{
+    color: black;
+    font-size: 30px;
+  }
 }
