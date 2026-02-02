@@ -16,7 +16,7 @@ function Way2() {
           خود را به سطح بالاتری ببرید و از سفر در طول مسیر لذت ببرید.
         </p>
       </div>
-      <img src="/public/img/home-5-image-2.png" alt="" />
+      <img src="/img/home-5-image-2.png" alt="" />
     </div>
   );
 }

@@ -19,7 +19,7 @@ function Cbox() {
           </p>
           <div className="user-c">
             <div className="img-c">
-                <img src="/public/img/authour-3.jpeg" alt="" />
+                <img src="/img/authour-3.jpeg" alt="" />
             </div>
             <div className="c-info">
                 <p>Fleix Everard</p>

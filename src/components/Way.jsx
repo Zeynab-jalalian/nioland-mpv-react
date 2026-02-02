@@ -4,7 +4,7 @@ import "./Way.css";
 function Way() {
   return (
     <div className="way">
-      <img src="/public/img/home-5-image-1.png" alt="" />
+      <img src="/img/home-5-image-1.png" alt="" />
       <div className="par-way">
         <h1>
           <span>روش شماره ۱ </span>

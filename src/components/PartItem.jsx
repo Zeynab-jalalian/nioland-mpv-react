@@ -4,7 +4,7 @@ function PartItem() {
   return (
     <div className="part-1-1">
       <div className="img-sss">
-        <img src="/public/img/blog-1-1.jpeg" alt="" />
+        <img src="/img/blog-1-1.jpeg" alt="" />
       </div>
       <button className="btn-sss">رشد</button>
       <div className="expl">
