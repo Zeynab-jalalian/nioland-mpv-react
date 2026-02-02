@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <div className="logofooter">
         <div className="logo">
-          <img src="/img/logo-dark-3.png" width="170" alt="" />
+          <img src="/nioland-mpv-react/img/logo-dark-3.png" width="170" alt="" />
         </div>
         <p>
           با مجموعه راه حل های قدرتمند ما، عملیات تجاری خود را ساده کنید. افزایش

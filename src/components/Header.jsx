@@ -6,7 +6,7 @@ function Header() {
     <div>
       <div className="header">
         <div className="logo">
-          <img src="/img//logo-1.png" alt="Logo" width="150px" />
+          <img src="/nioland-mpv-react/img//logo-1.png" alt="Logo" width="150px" />
         </div>
         <div className="list">
           <ul>
@@ -36,7 +36,7 @@ function Header() {
       </div>
       <div className="header-responsive">
         <div className="logo">
-          <img src="/img//logo-1.png" alt="Logo" width="150px" />
+          <img src="/nioland-mpv-react/img//logo-1.png" alt="Logo" width="150px" />
         </div>
         <div>
           <i class="bi bi-list"></i>

@@ -13,11 +13,11 @@ function Banner() {
           را شناسایی کردید.
         </p>
          <div className="icons-3 i-c-b">
-            <img src="/img/flag-5.png" alt="" />
-            <img src="/img/flag-4.png" alt="" />
-            <img src="/img/flag-3.png" alt="" />
-            <img src="/img/flag-2.png" alt="" />
-            <img src="/img/flag-1.png" alt="" />
+            <img src="/nioland-mpv-react/img/flag-5.png" alt="" />
+            <img src="/nioland-mpv-react/img/flag-4.png" alt="" />
+            <img src="/nioland-mpv-react/img/flag-3.png" alt="" />
+            <img src="/nioland-mpv-react/img/flag-2.png" alt="" />
+            <img src="/nioland-mpv-react/img/flag-1.png" alt="" />
           </div>
             <button className="btn2-home">شروع کنید</button>
       </div>
@@ -26,7 +26,7 @@ function Banner() {
         <div className="btn2-banner">آموزش زبان؟</div>
       </div>
       <div className="banner-3">
-        <img src="/img/image-2-2.png" alt="" />
+        <img src="/nioland-mpv-react/img/image-2-2.png" alt="" />
       </div>
     </div>
   );

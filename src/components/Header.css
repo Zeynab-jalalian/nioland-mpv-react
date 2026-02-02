@@ -60,8 +60,7 @@
     display: none;
   }
   .header-responsive {
-    position: fixed;
-    top: 0;
+    position: static;
     background: white;
     z-index: 100;
     width: 100%;
@@ -72,7 +71,7 @@
     padding: 30px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
-  .header-responsive i{
+  .header-responsive i {
     color: black;
     font-size: 30px;
   }

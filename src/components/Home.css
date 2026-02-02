@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   background-color: #3f53d8;
-  background-image: url("/img/map-ban1.png");
+  background-image: url("/nioland-mpv-react/img/map-ban1.png");
   background-position: center center;
   background-size: cover;
   padding: 80px 20px;
@@ -108,6 +108,7 @@
   .home {
     padding-top: 100px !important;
     height: 100%;
+    margin-top: 0 !important;
   }
   .home .icon-home {
     display: none;
