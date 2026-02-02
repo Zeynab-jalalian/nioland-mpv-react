@@ -1,5 +1,5 @@
-.comments{
-    padding: 20px;
+.comments {
+  padding: 20px;
 }
 .par-c {
   display: flex;
@@ -79,4 +79,29 @@
 .c-box span {
   color: #64728f;
   font-size: 13px;
+}
+@media (max-width: 760px) {
+  .par-c h1 {
+    font-size: 2rem;
+  }
+  .par-c p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #64728f;
+    margin-top: 15px;
+    max-width: 300px;
+    text-align: center;
+  }
+  .comments-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .comments-box div:nth-child(2){
+    display: none;
+  }
+  .comments-box div:nth-child(3){
+    display: none;
+  }
 }

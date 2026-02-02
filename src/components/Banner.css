@@ -52,10 +52,40 @@
   display: inline-block;
   margin-top: 10px;
 }
-.banner-3 img{
-    display: inline-block;
-    width: 320px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.banner-3 img {
+  display: inline-block;
+  width: 320px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (max-width: 760px) {
+  .banners {
+    gap: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  .banner-3 {
+    display: none;
+  }
+  .banner-1 p {
+    font-size: 1.3rem;
+  }
+  .i-c-b {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn2-home{
+    margin: 30px auto;
+  }
+  .banner-2 .btn-banner,.banner-2 .btn2-banner{
+    font-size: 25px;
+  }
 }

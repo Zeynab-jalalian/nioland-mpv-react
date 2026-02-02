@@ -1,6 +1,6 @@
 .partsss {
   margin: 10px auto;
-  padding:20px 40px;
+  padding: 20px 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
@@ -66,4 +66,12 @@
   font-size: 15px;
   color: #64728f;
   margin-right: 10px;
-}   
+}
+@media (max-width: 760px) {
+  .partsss {
+    grid-template-columns: 1fr;
+  }
+  .partsss .part-1-1{
+    width: 100% !important;
+  }
+}

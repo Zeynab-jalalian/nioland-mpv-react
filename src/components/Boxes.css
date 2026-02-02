@@ -44,3 +44,12 @@
   color: white;
   margin-bottom: 30px;
 }
+@media (max-width: 760px) {
+  .boxes h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .boxes-div {
+    grid-template-columns: 1fr;
+  }
+}

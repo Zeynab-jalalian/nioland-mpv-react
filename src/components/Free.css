@@ -31,6 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
   font-size: 20px;
   color: white;
@@ -69,4 +70,34 @@
   top: 50%;
   transform: translateY(-50%);
   right: 5px;
+}
+@media (max-width: 760px) {
+  .free {
+    width: 100%;
+    border-radius: 0;
+    text-align: center;
+  }
+  .free h1 {
+    font-size: 2rem;
+  }
+  .input-free {
+    width: 100%;
+  }
+  .free .free-ul {
+    font-size: 18px;
+  }
+  .button-free {
+    padding: 20px;
+    font-size: 16px;
+    width: 100px;
+    min-width: 100px;
+  }
+  .input-free input {
+    width: 100%;
+    margin: auto;
+    height: 30px;
+    padding: 40px 20px;
+    direction: ltr;
+    font-size: 20px;
+  }
 }

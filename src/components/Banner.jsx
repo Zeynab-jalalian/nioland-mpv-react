@@ -12,7 +12,7 @@ function Banner() {
           دوستان و خانواده ای که به این زبان صحبت می کنند؟ زمانی که انگیزه خود
           را شناسایی کردید.
         </p>
-         <div className="icons-3">
+         <div className="icons-3 i-c-b">
             <img src="/public/img/flag-5.png" alt="" />
             <img src="/public/img/flag-4.png" alt="" />
             <img src="/public/img/flag-3.png" alt="" />

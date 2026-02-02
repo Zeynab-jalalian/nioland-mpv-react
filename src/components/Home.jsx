@@ -24,17 +24,17 @@ function Home() {
           تا به شما کمک کند سریعتر کلمات را تسلط دهید.
         </p>
         <div className="part3">
-          <div className="icon-3">
+          <div className="icon-3 icon-3i">
             <img src="/public/img/icon-en.png" alt="" />
           </div>
-          <div className="icons-3">
+          <div className="icons-3 icon-3b">
             <img src="/public/img/flag-5.png" alt="" />
             <img src="/public/img/flag-4.png" alt="" />
             <img src="/public/img/flag-3.png" alt="" />
             <img src="/public/img/flag-2.png" alt="" />
             <img src="/public/img/flag-1.png" alt="" />
           </div>
-          <div className="icon-3">
+          <div className="icon-3 icon-3i">
             <img src="/public/img/icon-cn.png" alt="" />
           </div>
         </div>
@@ -48,6 +48,10 @@ function Home() {
           <img src="/public/img/client-w-3.png" alt="" />
           <img src="/public/img/client-w-4.png" alt="" />
           <img src="/public/img/client-w-5.png" alt="" />
+        </div>
+        <div className="part4-res">
+           <img src="/public/img/client-w-1.png" alt="" />
+          <img src="/public/img/client-w-2.png" alt="" />
         </div>
       </div>
     </div>

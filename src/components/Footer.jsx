@@ -27,6 +27,7 @@ function Footer() {
           </a>
         </div>
       </div>
+
       <ul>
         <h2>صفحه ابزار</h2>
         <li>ثبت نام</li>
@@ -57,6 +58,7 @@ function Footer() {
         <li>مدیریت کسب و کار</li>
         <li>آموزش زبان</li>
       </ul>
+
       <div className="up">
         <i class="bi bi-chevron-up"></i>
       </div>
