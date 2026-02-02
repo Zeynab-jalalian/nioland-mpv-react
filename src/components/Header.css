@@ -60,7 +60,10 @@
     display: none;
   }
   .header-responsive {
-    position: static;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background: white;
     z-index: 100;
     width: 100%;
