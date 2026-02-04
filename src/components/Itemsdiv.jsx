@@ -1,14 +1,14 @@
 import React from 'react'
 import "./Items.css";
-function Itemsdiv() {
+function Itemsdiv({amount,title,par}) {
   return (
       <div className="item1">
           <h1>
-            70
+            {amount}
             <span>k</span>
           </h1>
-          <h2>دروس تدریس شده</h2>
-          <p>دروس جذاب و آموزشی برای همه دروس، متناسب با...</p>
+          <h2>{title}</h2>
+          <p>{par}</p>
         </div>
   )
 }

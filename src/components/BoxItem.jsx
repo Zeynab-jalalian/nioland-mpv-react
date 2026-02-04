@@ -1,13 +1,13 @@
 import React from "react";
 
-function BoxItem() {
+function BoxItem({par,bgboxicon,icon}) {
   return (
     <div>
       <div className="box">
-        <div className="box-icon">
-          <i class="bi bi-globe"></i>
+        <div className="box-icon" style={{background:bgboxicon}}>
+          <i className={icon}></i>
         </div>
-        <h2>بیش از 1000 ترکیب زبان تا بتوانید یاد بگیرید.</h2>
+        <h2>{par}</h2>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Cbox() {
+function Cbox({title,par,img,name,dec,rating=5}) {
   return (
     <div>
        <div className="c-box">
@@ -11,19 +11,17 @@ function Cbox() {
             <i class="bi bi-star-fill"></i>
             <i class="bi bi-star-fill"></i>
           </div>
-          <h2>من خیلی خوشحالم! </h2>
+          <h2>{title}</h2>
           <p>
-            سارا، یک صاحب کسب و کار کوچک، فروش آنلاین خود را در عرض سه ماه پس از
-            استفاده از پلتفرم تجارت الکترونیک ما دو برابر کرد و درآمد خود را
-            افزایش داد و پایگاه مشتریان خود را گسترش داد.
+           {par}
           </p>
           <div className="user-c">
             <div className="img-c">
-                <img src="/nioland-mpv-react/img/authour-3.jpeg" alt="" />
+                <img src={img} alt="" />
             </div>
             <div className="c-info">
-                <p>Fleix Everard</p>
-                <span>HR, Blue Soft Sol</span>
+                <p>{name}</p>
+                <span>{dec}</span>
             </div>
           </div>
         </div>
@@ -32,3 +30,5 @@ function Cbox() {
 }
 
 export default Cbox
+
+                                                                  
