@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Cbox({title,par,img,name,dec,rating=5}) {
+function Cbox({title,par,img,name,dec}) {
   return (
     <div>
        <div className="c-box">
