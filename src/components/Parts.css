@@ -62,10 +62,12 @@
   color: #64728f;
 }
 .list-ss {
-  list-style: disc !important;
   font-size: 15px;
   color: #64728f;
   margin-right: 10px;
+}
+.list-ss li{
+ list-style: disc !important;
 }
 @media (max-width: 760px) {
   .partsss {

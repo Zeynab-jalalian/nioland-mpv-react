@@ -1,16 +1,16 @@
 import React from "react";
 
-function PartItem() {
+function PartItem({img,btn,title,par}) {
   return (
     <div className="part-1-1">
       <div className="img-sss">
-        <img src="/nioland-mpv-react/img/blog-1-1.jpeg" alt="" />
+        <img src={img} alt="" />
       </div>
-      <button className="btn-sss">رشد</button>
+      <button className="btn-sss">{btn}</button>
       <div className="expl">
-        <h1>چرا حفظ مشتری استراتژی رشد نهایی است؟</h1>
+        <h1>{title}</h1>
         <p>
-          حفظ مشتری بهترین راه برای بهینه سازی ماشین درآمد شماست. حفظ مشتری…
+         {par}
         </p>
       </div>
       <div className="user-sss">
